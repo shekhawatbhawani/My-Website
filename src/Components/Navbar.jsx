@@ -66,16 +66,16 @@ const Navbar = () => {
         <div className={`w-full md:hidden ${isMenuOpen ? "block" : "hidden"}`}>
           <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
             <li>
-            <Link  className="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" to="/">Home</Link>
+            <Link  className="block py-2 px-3 text-white bg-gray-900 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" to="/">Home</Link>
             </li>
             <li>
-            <Link  className="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"to="/service">Services</Link>
+            <Link  className="block py-2 px-3 text-white bg-gray-900 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"to="/service">Services</Link>
             </li>
     
             <li>
-            <Link  className="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" to="/contact">Contact</Link>            </li>
+            <Link  className="block py-2 px-3 text-white bg-gray-900 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" to="/contact">Contact</Link>            </li>
             <li>
-            <Link  className="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" to="/sig-in">Sig In</Link>            </li>
+            <Link  className="block py-2 px-3 text-white bg-gray-900 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" to="/sig-in">Sig In</Link>            </li>
           </ul>
         </div>
       </div>
